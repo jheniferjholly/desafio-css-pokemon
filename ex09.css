@@ -1,0 +1,26 @@
+.habitat{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.sentret{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.ledyba {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.hoothoot {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.spinarak {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
